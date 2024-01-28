@@ -1,0 +1,4 @@
+"""Write a program that asks the user to enter the amount of a purchase and the desired number of payment instalments. The program should add 6 percent to the amount to get the total purchase amount, and then divide it by the desired number of installments, then display message telling the user the total amount of the purchase and how much each instalment will cost."""
+
+amt, pInstall = int(input("Enter the amount of a purchase: ")), int(input("Enter the desired number of payment instalments: "))
+print("The total amount of the purchase {} each instalment will cost is {}".format(amt+amt*0.06, (amt+amt*0.06)/10))
